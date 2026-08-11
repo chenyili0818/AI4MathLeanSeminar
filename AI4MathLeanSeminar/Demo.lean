@@ -55,7 +55,7 @@ Lean 最核心的直觉：任何表达式都有唯一的类型。
 -- 用 #check 查看类型
 #check 1
 #check (1 : ℝ)
-#check Real.sqrt 2
+#check Real.sqrt 2 -- Real.sqrt 2 : ℝ
 
 -- 函数也有类型
 def f (x : ℕ) := x + 3
@@ -72,7 +72,6 @@ def double (n : Nat) : Nat := n * 2
 -- #check 查看名字的类型（不求值）
 #check myNumber    -- myNumber : ℕ
 #check double   -- double : ℕ → ℕ
-#check Real.sqrt 2  -- Real.sqrt 2 : ℝ
 
 -- #eval 求值
 #eval double 5   -- 10
