@@ -25,4 +25,4 @@
 
 ## 致谢
 
-本讲义参考了北大AI4M讨论班第三次课程（https://github.com/Blackfeather007/AI4Math-LeanSeminar.git）
+本讲义参考了北大AI4M讨论班[第三次课程](https://github.com/Blackfeather007/AI4Math-LeanSeminar)
